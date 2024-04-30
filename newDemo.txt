@@ -1,0 +1,9 @@
+npm i bcrypt body-parser cookie-parser crypto dotenv express jsonwebtoken multer mysql mysql2 nodemailer nodemailer-express-handlebars nodemon path sequelize
+
+migration
+npx sequelize-cli model:generate --name userRolemodel --attributes firstName:string
+
+seeders
+npx sequelize-cli seed:generate --name user-role-model
+
+
